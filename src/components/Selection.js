@@ -4,13 +4,14 @@ import "../styles/Child.css";
 const Selection = (props) => {
   const { applyColor } = props;
 
-  const [styleVar, setStyleVar] = useState({ background: "" });
+  const [styleVariable, setStyleVariable] = useState({ background: "" });
 
-  const handleClick = () => {
-    applyColor(setStyleVar);
-  };
   return (
-    <div className="fix-box" style={styleVar} onClick={handleClick}>
+    <div
+      className="fix-box"
+      style={styleVariable}
+      onClick={() => applyColor(setStyleVariable)}
+    >
       <h2 className="subheading">Selection</h2>
     </div>
   );
