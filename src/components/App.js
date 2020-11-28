@@ -56,3 +56,5 @@ const App = () => {
 };
 
 export default App;
+export { default as Selection } from "./Selection";
+export { default as ColourSelector } from "./ColourSelector";
