@@ -6,8 +6,8 @@ const ColourSelector = (props) => {
   return (
     <button
       className="colorSelectorButton"
-      style={{ backgroundColor: background }}
-      onClick={() => selectNextBackground({ background: background })}
+      style={{ background: background }}
+      onClick={() => selectNextBackground({ nextBackground: background })}
     >
       {label}
     </button>
