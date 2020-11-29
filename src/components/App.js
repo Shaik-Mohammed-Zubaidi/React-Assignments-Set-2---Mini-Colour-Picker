@@ -31,8 +31,6 @@ const App = () => {
   const applyColor = (updateSelectionStyle) => {
     updateSelectionStyle(nextBackground);
   };
-
-  // console.log(nextBackground);
   return (
     <div id="master">
       <h5 className="heading">{title}</h5>
@@ -57,5 +55,3 @@ const App = () => {
 };
 
 export default App;
-export { default as Selection } from "./Selection";
-export { default as ColourSelector } from "./ColourSelector";
